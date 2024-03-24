@@ -1,0 +1,26 @@
+{
+  "collections": [
+    {
+      "pk": "11111111-1111-1111-1111-111111111111",
+      "slug": "rad-collection",
+      "name": "Rad Collection",
+      "description": "This is a rad collection of rad things.",
+      "lessons": [
+        {
+          "pk": "11111111-1111-1111-1111-111111111112",
+          "slug": "rad-lesson",
+          "name": "Rad Lesson",
+          "description": "This is a rad lesson.",
+          "content": "This is the content of the rad lesson."
+        },
+        {
+          "pk": "11111111-1111-1111-1111-111111111113",
+          "slug": "rad-lesson-2",
+          "name": "Rad Lesson 2",
+          "description": "This is a rad lesson 2.",
+          "content": "This is the content of the rad lesson 2."
+        }
+      ]
+    }
+  ]
+}
