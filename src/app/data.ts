@@ -1,6 +1,6 @@
 export interface Lesson {
   pk: string;
-  slug?: string; // less need for global uniqueness if its always accesses within a collection
+  slug: string; // less need for global uniqueness if its always accesses within a collection
   name: string;
   description: string;
   content: string;
@@ -9,7 +9,7 @@ export interface Lesson {
 
 export interface Collection {
   pk: string;
-  slug?: string;
+  slug: string;
   name: string;
   description: string;
   lessons: Lesson[];
